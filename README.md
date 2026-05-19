@@ -15,7 +15,7 @@ O objetivo deste repositório é demonstrar a aplicação prática de dados para
 * **Principais Insights:** Identificação de que clientes com mais de 3 produtos e score de crédito abaixo de um limite crítico possuem 45% mais chance de Churn.
 
 ### 2. 📈 Painel de Indicadores Financeiros (AnaliseKPIS)
-* **Onde encontrar:** Pasta `/AnaliseKPIS`
+* **Onde encontrar:** Pasta `/AnaliseKPIS`  link: https://kpis4cfo.streamlit.app/
 * **Descrição:** Estruturação de métricas de desempenho corporativo (KPIs) para monitoramento de saúde financeira e de vendas.
 * **Tecnologias:** Python para tratamento de dados e modelagem estatística descritiva, Streamlit para execução do app) 
 
