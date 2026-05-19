@@ -4,3 +4,13 @@
 
 # Ignorar o arquivo de senhas que você vai criar
 .env
+
+# Bloquear pastas do sistema e compilação
+.idea/
+build/
+dist/
+*.spec
+
+# Bloquear planilhas de dados soltas na raiz
+*.xlsx
+*.csv
