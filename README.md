@@ -34,6 +34,7 @@ O objetivo deste repositório é demonstrar a aplicação prática de dados para
 * **Linguagens:** Python, SQL (PostgreSQL)
 * **Análise de Dados:** Pandas, NumPy
 * **Visualização:** Matplotlib, Seaborn
+* **Apps:** Streamlit
 * **IDE de Desenvolvimento:** PyCharm
 * **Controle de Versão:** Git & GitHub Desktop
 * **Segurança:** Gestão de credenciais locais via `python-dotenv`
@@ -47,7 +48,3 @@ Este repositório segue padrões rígidos de segurança de dados para ambientes 
 * **Versionamento Limpo:** O arquivo `.gitignore` foi rigorosamente configurado para impedir o envio acidental de dependências de ambientes virtuais (`.venv/`), chaves criptográficas ou bases de dados locais temporárias.
 
 ---
-
-✉️ **Vamos nos conectar?**
-* **LinkedIn:** [Insira o Link do seu perfil aqui]
-* **E-mail:** [Insira o seu e-mail de contato aqui]
