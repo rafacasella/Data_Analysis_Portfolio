@@ -14,10 +14,10 @@ O objetivo deste repositório é demonstrar a aplicação prática de dados para
 * **Tecnologias:** Python (Pandas, Matplotlib, Seaborn), consultas SQL para segmentação de clientes e Jupyter Notebook para apresentação.
 * **Principais Insights:** Identificação de que clientes com mais de 3 produtos e score de crédito abaixo de um limite crítico possuem 45% mais chance de Churn.
 
-### 2. 📈 Painel de Indicadores (AnaliseKPIS)
+### 2. 📈 Painel de Indicadores Financeiros (AnaliseKPIS)
 * **Onde encontrar:** Pasta `/AnaliseKPIS`
 * **Descrição:** Estruturação de métricas de desempenho corporativo (KPIs) para monitoramento de saúde financeira e de vendas.
-* **Tecnologias:** Python para tratamento de dados e modelagem estatística descritiva.
+* **Tecnologias:** Python para tratamento de dados e modelagem estatística descritiva, Streamlit para execução do app) 
 
 ### 3. 💼 Portfólio de Ações Dinâmico
 * **Onde encontrar:** Pasta `/PortifolioAcoes`
@@ -31,10 +31,10 @@ O objetivo deste repositório é demonstrar a aplicação prática de dados para
 
 ## 🛠️ Tecnologias e Ferramentas
 
-* **Linguagens:** Python 3.x, SQL (PostgreSQL / SQLite)
+* **Linguagens:** Python, SQL (PostgreSQL)
 * **Análise de Dados:** Pandas, NumPy
 * **Visualização:** Matplotlib, Seaborn
-* **IDE de Desenvolvimento:** PyCharm Community
+* **IDE de Desenvolvimento:** PyCharm
 * **Controle de Versão:** Git & GitHub Desktop
 * **Segurança:** Gestão de credenciais locais via `python-dotenv`
 
