@@ -12,7 +12,7 @@ from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_extras.grid import grid
 
 def build_sidebar():
-    ticker_list = pd.read_csv('tickers.csv', index_col = 0) #para pegar diretamente o nome, e não o número do índice
+    ticker_list = pd.read_csv('PortifolioAcoes/tickers.csv', index_col = 0) #para pegar diretamente o nome, e não o número do índice
     tickers = st.multiselect("Selecione as Empresas", options= ticker_list, placeholder="Códigos")
     tickers = [t+'.SA' for t in tickers] #Adicionando a terminologia utilziada no yahoo finance
     start_date = st.date_input("Data Inicial", format='DD/MM/YYYY', value=datetime(2016, 1, 1)) #Streamlit automaticamene joga 10 anos para mais e pars menos
