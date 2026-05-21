@@ -36,3 +36,11 @@ Estas variáveis diminuem a chance de o cliente cancelar o serviço (coeficiente
 * **Ações de Suporte:** Criar alertas automáticos acionados a partir da 3ª ou 4ª ligação do cliente ao suporte para a equipe de *Customer Success* intervir ativamente.
 * **Migração de Contratos:** Criar campanhas e descontos para migrar clientes do plano Mensal para o Trimestral ou Anual.
 * **Régua de Cobrança:** Desenvolver lembretes amigáveis automáticos de pagamento antes da data de vencimento para conter a inadimplência antes que ela vire Churn.
+
+### 📊 Análise de Impacto (Odds Ratio em %)
+
+O gráfico abaixo quantifica a mudança percentual nas chances de Churn para cada unidade alterada nas variáveis do modelo. As barras em **vermelho** indicam fatores que aumentam o risco de cancelamento, enquanto as barras em **verde** representam fatores de proteção e retenção.
+
+![Impacto das Variáveis na Chance de Churn](impacto_percentual_churn.png)
+
+* **Interpretação Prática:** Cada nova ligação para o suporte (`suportcalls`) aumenta as chances de cancelamento do cliente em **39.3%**. Em contrapartida, clientes do gênero masculino (`gender_Male`) têm uma propensão **67.9% menor** de dar Churn em comparação ao público feminino neste conjunto de dados.
