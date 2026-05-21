@@ -1,6 +1,5 @@
 # Ignorar o ambiente virtual inteiro
 .venv/
-.env/
 
 # Ignorar o arquivo de senhas
 .env
