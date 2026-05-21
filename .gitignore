@@ -2,7 +2,7 @@
 .venv/
 .env/
 
-# Ignorar o arquivo de senhas que você vai criar
+# Ignorar o arquivo de senhas
 .env
 
 # Bloquear pastas do sistema e compilação
