@@ -8,11 +8,14 @@ O objetivo deste repositório é demonstrar a aplicação prática de dados para
 
 ## 📂 Projetos em Destaque
 
-### 1. 🏦 Análise de Churn (Dados Bancários)
+### 1. 📉 Análise e Predição de Churn de Dados Bancários (Modelo Estatístico)
 * **Onde encontrar:** Pasta `/Churn_Analysis`
-* **Descrição:** Investigação aprofundada para identificar os principais fatores que levam os clientes a cancelarem seus serviços bancários.
-* **Tecnologias:** Python (Pandas, Matplotlib, Seaborn), consultas SQL para segmentação de clientes e Jupyter Notebook para apresentação.
-* **Principais Insights:** Identificação de que clientes com mais de 3 produtos e score de crédito abaixo de um limite crítico possuem 45% mais chance de Churn.
+* **Descrição:** Investigação preditiva utilizando um modelo de Regressão Logística para identificar e quantificar o impacto dos fatores operacionais, contratuais e demográficos no cancelamento de clientes (dataset com mais de 64 mil registros).
+* **Tecnologias:** Python (`pandas`, `statsmodels`, `psycopg2`), Banco de Dados (`PostgreSQL`) e Jupyter Notebook.
+* **Principais Insights:** 
+  * **Atrito no Suporte:** Cada ligação adicional realizada para o suporte aumenta as chances de cancelamento do cliente em **39.3%**.
+  * **Fragilidade Contratual:** Clientes com contratos do tipo Mensal possuem um risco de Churn **37.8% maior** em relação aos contratos Anuais.
+  * **Sinal de Alerta:** Cada dia de atraso no pagamento do cliente (`paymentdelays`) eleva o risco de perda em **23.8%**.
 
 ### 2. 📈 Painel de Indicadores Financeiros (AnaliseKPIS)
 * **Onde encontrar:** Pasta `/AnaliseKPIS`  link: https://kpis4cfo.streamlit.app/
