@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Cohort_Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "75f7deb5-97a3-406d-8cc6-10f0153e22d0"
+  }
+}

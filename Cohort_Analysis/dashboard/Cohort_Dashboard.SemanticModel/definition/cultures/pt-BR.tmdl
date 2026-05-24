@@ -1,0 +1,545 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "consulta_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "consulta 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Consulta1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.cohort": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "cohort"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cohort": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "army": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "troop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "regiment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "legion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "gang": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "supporter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "accomplice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "follower": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "crony": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.indice_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "indice_mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "indice me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "indice_mes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.clientes_ativo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "clientes_ativos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "clientes ativo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cliente ativo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "clientes_ativos": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.total_clientes_inicial": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "total_clientes_inicial"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total clientes inicial": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total cliente inicial": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "total_clientes_inicial": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate cliente inicial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall cliente inicial": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.percentual_retencao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "percentual_retencao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "percentual retencao": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentual_retencao": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.clientes_iniciais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "Clientes Iniciais"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "clientes iniciais": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "consulta_1.RetençRetenção_mês_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Consulta1",
+			          "ConceptualProperty": "RetençRetenção Mês 1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "RetençRetenção mês 1": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "consulta_1_has_RetençRetenção_mês_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_1": {
+			          "Target": {
+			            "Entity": "consulta_1"
+			          }
+			        },
+			        "consulta_1.RetençRetenção_mês_1": {
+			          "Target": {
+			            "Entity": "consulta_1.RetençRetenção_mês_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_1"
+			            },
+			            "Object": {
+			              "Role": "consulta_1.RetençRetenção_mês_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_1_have_RetençRetenção_mês_1"
+			        }
+			      ]
+			    },
+			    "consulta_1_has_clientes_iniciais": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_1": {
+			          "Target": {
+			            "Entity": "consulta_1"
+			          }
+			        },
+			        "consulta_1.clientes_iniciais": {
+			          "Target": {
+			            "Entity": "consulta_1.clientes_iniciais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_1"
+			            },
+			            "Object": {
+			              "Role": "consulta_1.clientes_iniciais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_1_have_clientes_iniciais"
+			        }
+			      ]
+			    },
+			    "consulta_1_has_percentual_retencao": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_1": {
+			          "Target": {
+			            "Entity": "consulta_1"
+			          }
+			        },
+			        "consulta_1.percentual_retencao": {
+			          "Target": {
+			            "Entity": "consulta_1.percentual_retencao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_1"
+			            },
+			            "Object": {
+			              "Role": "consulta_1.percentual_retencao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_1_have_percentual_retencaos"
+			        }
+			      ]
+			    },
+			    "consulta_1_has_total_clientes_inicial": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_1": {
+			          "Target": {
+			            "Entity": "consulta_1"
+			          }
+			        },
+			        "consulta_1.total_clientes_inicial": {
+			          "Target": {
+			            "Entity": "consulta_1.total_clientes_inicial"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_1"
+			            },
+			            "Object": {
+			              "Role": "consulta_1.total_clientes_inicial"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_1_have_total_clientes_inicials"
+			        }
+			      ]
+			    },
+			    "consulta_1_has_clientes_ativo": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_1": {
+			          "Target": {
+			            "Entity": "consulta_1"
+			          }
+			        },
+			        "consulta_1.clientes_ativo": {
+			          "Target": {
+			            "Entity": "consulta_1.clientes_ativo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_1"
+			            },
+			            "Object": {
+			              "Role": "consulta_1.clientes_ativo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_1_have_clientes_ativos"
+			        }
+			      ]
+			    },
+			    "consulta_1_has_indice_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_1": {
+			          "Target": {
+			            "Entity": "consulta_1"
+			          }
+			        },
+			        "consulta_1.indice_me": {
+			          "Target": {
+			            "Entity": "consulta_1.indice_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_1"
+			            },
+			            "Object": {
+			              "Role": "consulta_1.indice_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_1_have_indice_me"
+			        }
+			      ]
+			    },
+			    "consulta_1_has_cohort": {
+			      "Binding": {
+			        "ConceptualEntity": "Consulta1"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "consulta_1": {
+			          "Target": {
+			            "Entity": "consulta_1"
+			          }
+			        },
+			        "consulta_1.cohort": {
+			          "Target": {
+			            "Entity": "consulta_1.cohort"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "consulta_1"
+			            },
+			            "Object": {
+			              "Role": "consulta_1.cohort"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "consulta_1_have_cohorts"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

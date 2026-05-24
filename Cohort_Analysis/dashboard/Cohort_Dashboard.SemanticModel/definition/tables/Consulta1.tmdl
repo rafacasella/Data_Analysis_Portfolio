@@ -1,0 +1,75 @@
+table Consulta1
+	lineageTag: 0a12517e-1e45-4263-b658-81dc2ecd6a7e
+
+	measure 'Clientes Iniciais' = ```
+			CALCULATE(SUM(Consulta1[clientes_ativos]), Consulta1[indice_mes] = 0)
+			
+			```
+		formatString: 0
+		lineageTag: edfd54ca-f7d0-45e3-9d7d-9c7e99977305
+
+	measure 'RetençRetenção Mês 1' = ```
+			
+			CALCULATE(
+			    AVERAGE(Consulta1[percentual_retencao]), 
+			    Consulta1[indice_mes] = 1
+			) / 100
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 5e2e42db-a73f-4ff5-a647-0098cebc1e90
+
+	column cohort
+		dataType: string
+		lineageTag: a11a965a-bede-4ec4-ad14-0cdd1f51792a
+		summarizeBy: none
+		sourceColumn: cohort
+
+		annotation SummarizationSetBy = Automatic
+
+	column indice_mes
+		dataType: int64
+		formatString: 0
+		lineageTag: 8d7b230c-8057-4f0e-8d80-82511f2bf5ba
+		summarizeBy: sum
+		sourceColumn: indice_mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column clientes_ativos
+		dataType: int64
+		formatString: 0
+		lineageTag: db61f66e-0d61-400a-a406-acf67eaf4f57
+		summarizeBy: sum
+		sourceColumn: clientes_ativos
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_clientes_inicial
+		dataType: int64
+		formatString: 0
+		lineageTag: cec08411-c481-42eb-a7f3-8acab71ee9dd
+		summarizeBy: sum
+		sourceColumn: total_clientes_inicial
+
+		annotation SummarizationSetBy = Automatic
+
+	column percentual_retencao
+		dataType: double
+		lineageTag: 97a6bf48-7a6d-47de-85cd-f9d23d06a58b
+		summarizeBy: sum
+		sourceColumn: percentual_retencao
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Consulta1 = m
+		mode: import
+		source =
+				let
+				    Fonte = Value.NativeQuery(PostgreSQL.Database("localhost", "Cohort"), "SELECT * FROM (#(lf)    WITH cohort_base AS (#(lf)        SELECT #(lf)            TO_CHAR(mes_cohort, 'YYYY-MM') AS cohort,#(lf)            indice_mes,#(lf)            COUNT(DISTINCT customerid) AS clientes_ativos#(lf)        FROM v_atividades_cohort#(lf)        GROUP BY mes_cohort, indice_mes#(lf)    ),#(lf)    cohort_com_total_inicial AS (#(lf)        SELECT #(lf)            cohort,#(lf)            indice_mes,#(lf)            clientes_ativos,#(lf)            FIRST_VALUE(clientes_ativos) OVER(#(lf)                PARTITION BY cohort #(lf)                ORDER BY indice_mes#(lf)            ) AS total_clientes_inicial#(lf)        FROM cohort_base#(lf)    )#(lf)    SELECT #(lf)        cohort,#(lf)        indice_mes,#(lf)        clientes_ativos,#(lf)        total_clientes_inicial,#(lf)        ROUND((clientes_ativos::numeric / total_clientes_inicial::numeric) * 100, 2) AS percentual_retencao#(lf)    FROM cohort_com_total_inicial#(lf)) AS dados_cohort", null, [EnableFolding=true])
+				in
+				    Fonte
+
+	annotation PBI_ResultType = Table
+
