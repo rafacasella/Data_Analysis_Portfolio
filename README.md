@@ -1,4 +1,4 @@
-# 📊 Portfólio de Análise de Dados & Automação
+# 📊 Portfólio de Análise de Dados
 
 Bem-vindo ao meu portfólio de projetos! Aqui estão reunidas soluções completas de análise de dados, engenharia de dados e automação de processos utilizando **Python** e **SQL**. 
 
