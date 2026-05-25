@@ -19,8 +19,16 @@ O objetivo deste repositório é demonstrar a aplicação prática de dados para
 
 ### 2. 📈 Painel de Indicadores Financeiros (AnaliseKPIS)
 * **Onde encontrar:** Pasta `/AnaliseKPIS`  link: https://kpis4cfo.streamlit.app/
-* **Descrição:** Estruturação de métricas de desempenho corporativo (KPIs) para monitoramento de saúde financeira e de vendas.
-* **Tecnologias:** Python para tratamento de dados e modelagem estatística descritiva, Streamlit para execução do app) 
+* **Descrição:** O Painel de Indicadores Financeiros é uma aplicação interativa focada na estruturação de métricas de desempenho corporativo (KPIs), projetada para apoiar decisões estratégicas através do monitoramento em tempo real da saúde financeira e da performance de vendas.
+* **Tecnologias:** 
+* * **Python:** Linguagem base utilizada em todo o projeto
+* * **Pandas:** Manipulação, limpeza e tratamento avançado dos dados brutos
+* * **MatplotLib/Seaborn:** Construção e estilização de visualizações estatísticas atraentes
+* * **Streamlit:** Framework para renderização da interface web e deploy do painel
+* **Principais Insights:** 
+  * **Alavancagem de Crescimento:** Protegendo o produto estrela, priorizando investimentos e direcionando campanhas de tráfego
+  * **Mitigação de Riscos:** Identificação dos produtos com altíssimo custo operacional que gargala toda operação (estrangulando lucro)
+  * **Plano de Recuperação:** Alteração do mix de vendas, incentivando o time comercial a focar em produtos com maiores margens.
 
 ### 3. 💼 Portfólio de Ações Dinâmico
 * **Onde encontrar:** Pasta `/PortifolioAcoes` link: https://rafacasella-portifolio-an-portifolioacoesportifolioacoes-ydwzap.streamlit.app/
