@@ -34,10 +34,6 @@ O objetivo deste repositório é demonstrar a aplicação prática de dados para
 * **Onde encontrar:** Pasta `/PortifolioAcoes` link: https://rafacasella-portifolio-an-portifolioacoesportifolioacoes-ydwzap.streamlit.app/
 * **Descrição:** Ferramenta para análise de ativos financeiros com normalização de retornos e comparação direta com o benchmark do Índice Bovespa (IBOV).
 
-### 4. 🌐 Web Scraping de Cotações
-* **Onde encontrar:** Pasta `/WebScrapingCotacoes`
-* **Descrição:** Script automatizado para extração e monitoramento de taxas cambiais (foco nos pares de moedas comparativas ao Dólar) diretamente da web.
-
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
