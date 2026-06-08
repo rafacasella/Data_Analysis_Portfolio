@@ -15,7 +15,7 @@ The application is deployed and ready for cloud use:
 * **Plotly** / **Matplotlib** (Dynamic performance chart visualizations)
 
 ## 📁 File Structure
-* `PortifolioAcoes.py`: Main script that renders the Streamlit application.
+* `Stock_Portfolio.py`: Main script that renders the Streamlit application.
 * `tickers.csv`: Support file containing the list and symbols of monitored assets.
 * `requirements.txt`: Dependencies and libraries required to run the ecosystem.
 
