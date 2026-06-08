@@ -1,57 +1,57 @@
-# 📊 Portfólio de Análise de Dados
+# 📊 Data Analysis Portfolio
 
-Bem-vindo ao meu portfólio de projetos! Aqui estão reunidas soluções completas de análise de dados, engenharia de dados e automação de processos utilizando **Python** e **SQL**. 
+Welcome to my project portfolio! This repository brings together end-to-end solutions in data analysis, data engineering, and process automation using **Python** and **SQL**. 
 
-O objetivo deste repositório é demonstrar a aplicação prática de dados para a geração de insights de negócios e otimização de rotinas diárias.
-
----
-
-## 📂 Projetos em Destaque
-
-### 1. 📉 Análise e Predição de Churn de Dados Bancários (Modelo Estatístico)
-* **Onde encontrar:** Pasta `/Churn_Analysis`
-* **Descrição:** Investigação preditiva utilizando um modelo de Regressão Logística para identificar e quantificar o impacto dos fatores operacionais, contratuais e demográficos no cancelamento de clientes (dataset com mais de 64 mil registros).
-* **Tecnologias:** Python (`pandas`, `statsmodels`, `psycopg2`), Banco de Dados (`PostgreSQL`) e Jupyter Notebook.
-* **Principais Insights:** 
-  * **Atrito no Suporte:** Cada ligação adicional realizada para o suporte aumenta as chances de cancelamento do cliente em **39.3%**.
-  * **Fragilidade Contratual:** Clientes com contratos do tipo Mensal possuem um risco de Churn **37.8% maior** em relação aos contratos Anuais.
-  * **Sinal de Alerta:** Cada dia de atraso no pagamento do cliente (`paymentdelays`) eleva o risco de perda em **23.8%**.
-
-### 2. 📈 Painel de Indicadores Financeiros (AnaliseKPIS)
-* **Onde encontrar:** Pasta `/AnaliseKPIS`  link: https://kpis4cfo.streamlit.app/
-* **Descrição:** O Painel de Indicadores Financeiros é uma aplicação interativa focada na estruturação de métricas de desempenho corporativo (KPIs), projetada para apoiar decisões estratégicas através do monitoramento em tempo real da saúde financeira e da performance de vendas.
-* **Tecnologias:** 
-* * **Python:** Linguagem base utilizada em todo o projeto
-* * **Pandas:** Manipulação, limpeza e tratamento avançado dos dados brutos
-* * **MatplotLib/Seaborn:** Construção e estilização de visualizações estatísticas atraentes
-* * **Streamlit:** Framework para renderização da interface web e deploy do painel
-* **Principais Insights:** 
-  * **Alavancagem de Crescimento:** Protegendo o produto estrela, priorizando investimentos e direcionando campanhas de tráfego
-  * **Mitigação de Riscos:** Identificação dos produtos com altíssimo custo operacional que gargala toda operação (estrangulando lucro)
-  * **Plano de Recuperação:** Alteração do mix de vendas, incentivando o time comercial a focar em produtos com maiores margens.
-
-### 3. 💼 Portfólio de Ações Dinâmico
-* **Onde encontrar:** Pasta `/PortifolioAcoes` link: https://rafacasella-portifolio-an-portifolioacoesportifolioacoes-ydwzap.streamlit.app/
-* **Descrição:** Ferramenta para análise de ativos financeiros com normalização de retornos e comparação direta com o benchmark do Índice Bovespa (IBOV).
+The goal of this repository is to demonstrate the practical application of data to generate business insights and optimize daily routines.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## 📂 Featured Projects
 
-* **Linguagens:** Python, SQL (PostgreSQL)
-* **Análise de Dados:** Pandas, NumPy
-* **Visualização:** Matplotlib, Seaborn
-* **Apps:** Streamlit
-* **IDE de Desenvolvimento:** PyCharm
-* **Controle de Versão:** Git & GitHub Desktop
-* **Segurança:** Gestão de credenciais locais via `python-dotenv`
+### 1. 📉 Banking Churn Analysis & Prediction (Statistical Modeling)
+* **Where to Find:** `/Churn_Analysis` folder
+* **Description:** Predictive investigation utilizing a Logistic Regression model to identify and quantify the impact of operational, contractual, and demographic factors on customer cancellation (dataset featuring over 64,000 records).
+* **Technologies:** Python (`pandas`, `statsmodels`, `psycopg2`), Database (`PostgreSQL`), and Jupyter Notebook.
+* **Key Insights:** 
+  * **Support Friction:** Each additional call made to customer support increases the likelihood of customer cancellation by **39.3%**.
+  * **Contractual Fragility:** Customers with Monthly contracts present a **37.8% higher** Churn risk compared to those on Annual contracts.
+  * **Red Flag:** Each day of payment delay (`paymentdelays`) raises the risk of churn by **23.8%**.
+
+### 2. 📈 Financial KPI Dashboard (KPIs_Analysis)
+* **Where to Find:** `/KPIs_Analysis` folder | Link: https://kpis4cfo.streamlit.app/
+* **Description:** An interactive web application focused on structuring corporate performance metrics (KPIs), engineered to support strategic decision-making through real-time monitoring of financial health and sales performance.
+* **Technologies:** 
+  * **Python:** Core language utilized throughout the entire project.
+  * **Pandas:** Manipulation, cleaning, and advanced processing of raw data.
+  * **Matplotlib/Seaborn:** Construction and styling of compelling statistical visualizations.
+  * **Streamlit:** Framework for rendering the web interface and deploying the dashboard.
+* **Key Insights:** 
+  * **Growth Leverage:** Protecting the flagship product, prioritizing investments, and targeting traffic campaigns.
+  * **Risk Mitigation:** Identifying products with extremely high operational costs that bottleneck the entire operation (stifling profit).
+  * **Recovery Plan:** Adjusting the sales mix, encouraging the commercial team to focus on higher-margin products.
+
+### 3. 💼 Dynamic Stock Portfolio Tracker
+* **Where to Find:** `/Stock_Portfolio_Analysis` folder | Link: https://rafacasella-portifolio-an-portifolioacoesportifolioacoes-ydwzap.streamlit.app/
+* **Description:** A tool for financial asset analysis featuring return normalization and direct performance comparison against the Bovespa Index (IBOV) benchmark.
 
 ---
 
-## 🔒 Boas Práticas de Segurança Aplicadas
+## 🛠️ Tech Stack & Tools
 
-Este repositório segue padrões rígidos de segurança de dados para ambientes de produção:
-* **Mascaramento de Credenciais:** Nenhuma senha ou string de conexão com bancos de dados é exposta no código público. Todas as variáveis sensíveis são injetadas dinamicamente via arquivo `.env` local.
-* **Versionamento Limpo:** O arquivo `.gitignore` foi rigorosamente configurado para impedir o envio acidental de dependências de ambientes virtuais (`.venv/`), chaves criptográficas ou bases de dados locais temporárias.
+* **Languages:** Python, SQL (PostgreSQL)
+* **Data Analysis:** Pandas, NumPy
+* **Data Visualization:** Matplotlib, Seaborn
+* **Web Apps:** Streamlit
+* **Development IDE:** PyCharm
+* **Version Control:** Git & GitHub Desktop
+* **Security:** Local credential management via `python-dotenv`
+
+---
+
+## 🔒 Applied Security Best Practices
+
+This repository adheres to strict data security standards for production environments:
+* **Credential Masking:** No passwords or database connection strings are exposed in the public code. All sensitive variables are dynamically injected via a local `.env` file.
+* **Clean Versioning:** The `.gitignore` file is rigorously configured to prevent the accidental upload of virtual environment dependencies (`.venv/`), cryptographic keys, or temporary local databases.
 
 ---
