@@ -1,28 +1,28 @@
-# 🌐 Web Scraping de Cotações
+# 🌐 Currency Quotes Web Scraping
 
-## 📝 Descrição
-Este projeto consiste em um script automatizado desenvolvido em Python para a extração, monitoramento e análise de taxas cambiais em tempo real. O foco principal do sistema é a captura de dados dos principais pares de moedas comparativas ao Dólar Americano (USD) diretamente de fontes públicas na web.
+## 📝 Description
+This project consists of an automated script developed in Python for real-time currency exchange rate extraction, monitoring, and analysis. The system's primary focus is capturing data for major currency pairs relative to the US Dollar (USD) directly from public web sources.
 
-## 🛠️ Tecnologias Utilizadas
-* **Python** (Linguagem principal)
-* **BeautifulSoup4** (Extração de dados web)
-* **Requests** (Requisições HTTP)
+## 🛠️ Tech Stack
+* **Python** (Core language)
+* **BeautifulSoup4** (Web data parsing and extraction)
+* **Requests** (HTTP requests management)
 
-## 📁 Estrutura de Arquivos
-* `WebScraping.py`: Script principal que executa a raspagem de dados.
-* `requirements.txt`: Lista de bibliotecas necessárias para rodar o script.
+## 📁 File Structure
+* `WebScraping.py`: Main script that executes the web scraping process.
+* `requirements.txt`: List of dependencies required to run the script.
 
-## 🚀 Como Executar o Projeto
+## 🚀 How to Run the Project
 
-1. Certifique-se de ter o Python instalado em sua máquina.
-2. Instale as dependências necessárias executando o comando abaixo no terminal:
+1. Ensure you have Python installed on your machine.
+2. Install the required dependencies by running the command below in your terminal:
    ```bash
    pip install -r requirements.txt
    ```
-3. Execute o script principal:
+3. Execute the main script:
    ```bash
    python scraping_cotacoes.py
    ```
 
 ---
-📌 *Este projeto faz parte do meu Portfólio de Análise de Dados.*
+📌 *This project is part of my Data Analysis Portfolio.*
