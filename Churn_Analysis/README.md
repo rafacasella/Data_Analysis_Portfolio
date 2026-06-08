@@ -1,27 +1,27 @@
-# 📉 Análise e Predição de Churn Bancário
+# 📉 Banking Churn Analysis & Prediction
 
-### 📌 Sobre o Projeto
-Este projeto realiza uma análise preditiva e estatística aprofundada sobre a evasão de clientes (*churn*) utilizando dados históricos de uma instituição financeira. O objetivo principal é identificar os gatilhos comportamentais, operacionais e demográficos que levam um cliente a cancelar seus serviços, permitindo que a equipe de negócios atue de forma preventiva.
+### 📌 About the Project
+This project conducts an in-depth predictive and statistical analysis of customer churn utilizing historical data from a financial institution. The primary objective is to identify behavioral, operational, and demographic triggers that lead a customer to cancel their services, enabling business teams to take preventive action.
 
-O projeto foi evoluído de uma análise descritiva em SQL para um **Modelo de Regressão Logística** robusto em Python, permitindo quantificar o impacto real de cada variável na chance de cancelamento.
-
----
-
-### 🛠️ Tecnologias e Ferramentas
-* **Banco de Dados:** PostgreSQL (Armazenamento, estruturação e extração dos dados brutos).
-* **Linguagem:** Python 3.x (Análise de dados e modelagem estatística).
-* **Bibliotecas Principais:** `pandas`, `psycopg2`, `statsmodels`, `seaborn` e `matplotlib`.
-* **Segurança:** `python-dotenv` para gerenciamento seguro de credenciais de banco de dados.
+The project evolved from a descriptive SQL analysis into a robust **Logistic Regression Model** in Python, allowing for the quantification of the actual impact each variable has on the likelihood of cancellation.
 
 ---
 
-### 📁 Estrutura do Repositório
+### 🛠️ Tech Stack & Tools
+* **Database:** PostgreSQL (Storage, structuring, and raw data extraction).
+* **Language:** Python 3.x (Data analysis and statistical modeling).
+* **Core Libraries:** `pandas`, `psycopg2`, `statsmodels`, `seaborn`, and `matplotlib`.
+* **Security:** `python-dotenv` for secure database credential management.
+
+---
+
+### 📁 Repository Structure
 * 📂 `Churn_Analysis/`
-  * 📄 `Churn_Analysis.ipynb`: Notebook Jupyter contendo a engenharia de recursos, tratamento de dados e o modelo de regressão.
-  * 📄 `churn.sql`: Script estruturado com os dados e consultas para carga no PostgreSQL.
-  * 🖼️ `impacto_percentual_churn.png`: Gráfico explicativo das alavancas de Churn.
-* 📄 `.env.example`: Modelo de configuração das variáveis de ambiente do banco de dados.
-* 📄 `.gitignore` & `.gitattributes`: Configurações globais de versionamento e quebras de linha.
-* 📄 `requirements.txt`: Arquivo com as dependências exatas do projeto.
+  * 📄 `Churn_Analysis.ipynb`: Jupyter Notebook containing feature engineering, data processing, and the regression model.
+  * 📄 `churn.sql`: Structured script with data and queries for loading into PostgreSQL.
+  * 🖼️ `impacto_percentual_churn.png`: Explanatory chart illustrating churn levers.
+* 📄 `.env.example`: Template for configuring database environment variables.
+* 📄 `.gitignore` & `.gitattributes`: Global version control and line ending configurations.
+* 📄 `requirements.txt`: File containing the exact project dependencies.
 
-📌 *Este projeto faz parte do meu Portfólio de Análise e Ciência de Dados.*
+📌 *This project is part of my Data Analysis and Data Science Portfolio.*
