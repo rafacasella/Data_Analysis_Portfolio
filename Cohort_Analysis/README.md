@@ -1,32 +1,32 @@
-# 📉 Análise de Cohort e Retenção Bancária
+# 📉 Cohort & Banking Retention Analysis
 
-## 📌 Sobre o Projeto
-Este projeto realiza uma análise estatística e comportamental aprofundada sobre a retenção e o engajamento de correntistas utilizando dados históricos de uma instituição financeira. O objetivo principal é mapear a jornada dos clientes ao longo do tempo através de uma matriz clássica de Cohort, permitindo identificar os períodos críticos de evasão precoce e fornecer insumos estratégicos para que a equipe de negócios aumente o LTV (*Lifetime Value*).
+## 📌 About the Project
+This project conducts an in-depth statistical and behavioral analysis of customer retention and engagement utilizing historical data from a financial institution. The primary objective is to map the customer journey over time using a classic Cohort matrix, enabling the identification of critical periods for early churn and providing strategic inputs for business teams to maximize Customer Lifetime Value (LTV).
 
-O projeto foi estruturado a partir de um tratamento e modelagem de dados robustos diretamente em ambiente SQL (PostgreSQL), sendo posteriormente integrado ao Power BI para uma visualização dinâmica e interativa das curvas de decaimento de clientes.
+The project was structured around robust data processing and modeling performed directly within a SQL environment (PostgreSQL), which was subsequently integrated into Power BI for a dynamic and interactive visualization of customer decay curves.
 
-## 🛠️ Tecnologias e Ferramentas
-* **Banco de Dados:** PostgreSQL (Armazenamento, validação e modelagem da matriz de cohort).
-* **Interface de Queries:** pgAdmin 4 (Escrita de scripts, funções de auditoria e otimização).
-* **Visualização de Dados:** Power BI Desktop (Modelagem de dados, conexão nativa e painel interativo).
-* **Linguagem:** SQL (Extração, tratamento de dados nulos e cálculo de índices de intervalo).
+## 🛠️ Tech Stack & Tools
+* **Database:** PostgreSQL (Storage, validation, and cohort matrix modeling).
+* **Query Interface:** pgAdmin 4 (Script writing, auditing functions, and query optimization).
+* **Data Visualization:** Power BI Desktop (Data modeling, native connection, and interactive dashboard).
+* **Language:** SQL (Extraction, missing value handling, and interval index calculation).
 
-## 🔍 Engenharia de Dados e Consultas SQL
-Para otimizar a performance do Power BI, toda a transformação pesada dos dados foi realizada diretamente na fonte através do PostgreSQL. A lógica implementada nos scripts estruturados segue as seguintes etapas:
+## 🔍 Data Engineering & SQL Queries
+To optimize Power BI performance, all heavy data transformation was handled directly at the source using PostgreSQL. The logic implemented in the structured scripts follows these stages:
 
-1. **Auditoria de Qualidade:** Criação de uma função customizada para checar valores vazios no dataset e posterior tratamento de *missing values*.
-2. **Definição do Cohort:** Identificação da data da primeira compra/movimentação absoluta de cada `CustomerID`, estabelecendo o grupo fixo do cliente.
-3. **Cálculo de Intervalo de Tempo:** Cálculo da distância em meses entre a venda atual e o cohort inicial (Mês 0: primeira interação; Mês 1: primeiro mês subsequente, etc.).
-4. **Agregação e Métrica:** Consolidação final com a contagem de clientes únicos ativos por período para gerar o percentual exato de retenção.
+1. **Quality Auditing:** Creation of a custom function to check for empty values in the dataset, followed by missing value treatment.
+2. **Cohort Definition:** Identification of the absolute first purchase/transaction date for each `CustomerID`, establishing the customer's fixed group.
+3. **Time Interval Calculation:** Calculation of the distance in months between the current transaction and the initial cohort (Month 0: first interaction; Month 1: first subsequent month, etc.).
+4. **Aggregation & Metrics:** Final consolidation counting unique active customers per period to generate the exact retention percentage.
 
-## 📊 Como Visualizar o Projeto
-1. O arquivo do relatório do Power BI está disponível na pasta `/dashboard`.
-2. Para que o painel funcione perfeitamente na sua máquina, é necessário abrir o arquivo e alterar as credenciais da fonte de dados para apontar para o seu próprio servidor PostgreSQL.
-3. *(Opcional)* Você também pode visualizar o comportamento do painel através dos arquivos `dashboard_final.png` ou do arquivo animado `.gif` contidos na pasta de apresentação.
+## 📊 How to View the Project
+1. The Power BI report file is available inside the `/dashboard` folder.
+2. For the dashboard to function perfectly on your machine, you must open the file and change the data source credentials to point to your own PostgreSQL server.
+3. *(Optional)* You can also view the dashboard's behavior using the `dashboard_final.png` or the animated `.gif` file contained within the presentation folder.
 
-## 🗄️ Carga do Banco de Dados
-1. Restaure a estrutura e os dados retail utilizando o arquivo localizado em `data/banco_de_dados.sql` no seu PostgreSQL.
-2. Execute os scripts analíticos da pasta `sql` através do pgAdmin 4 para processar e estruturar a visão final do cohort.
+## 🗄️ Database Loading
+1. Restore the retail structure and data using the file located at `data/database.sql` within your PostgreSQL instance.
+2. Execute the analytical scripts from the `sql` folder using pgAdmin 4 to process and structure the final cohort view.
 
 ***
-📌 Este projeto faz parte do meu Portfólio de Análise e Engenharia de Dados.
+📌 *This project is part of my Data Analysis and Data Engineering Portfolio.*
