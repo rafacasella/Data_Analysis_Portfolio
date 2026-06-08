@@ -31,7 +31,7 @@ The goal of this repository is to demonstrate the practical application of data 
   * **Recovery Plan:** Adjusting the sales mix, encouraging the commercial team to focus on higher-margin products.
 
 ### 3. 💼 Dynamic Stock Portfolio Tracker
-* **Where to Find:** `/Stock_Portfolio_Analysis` folder | Link: https://rafacasella-portifolio-an-portifolioacoesportifolioacoes-ydwzap.streamlit.app/
+* **Where to Find:** `/Stock_Portfolio` folder | Link: https://rafacasella-portifolio-an-portifolioacoesportifolioacoes-ydwzap.streamlit.app/
 * **Description:** A tool for financial asset analysis featuring return normalization and direct performance comparison against the Bovespa Index (IBOV) benchmark.
 
 ---
