@@ -1,38 +1,38 @@
-# 💼 Portfólio de Ações Dinâmico
+# 💼 Dynamic Stock Portfolio Tracker
 
-## 📝 Descrição
-Este projeto é uma aplicação web interativa desenvolvida para investidores e analistas financeiros. A ferramenta permite realizar a análise de ativos da bolsa de valores brasileira, aplicando a normalização de retornos para uma comparação justa de desempenho e gerando um confronto direto contra o principal benchmark do mercado nacional, o Índice Bovespa (IBOV).
+## 📝 Description
+This project is an interactive web application designed for investors and financial analysts. The tool enables the analysis of assets from the Brazilian stock exchange, applying return normalization for a fair performance comparison and generating a direct matchup against the country's primary market benchmark, the Bovespa Index (IBOV).
 
-## 🔗 Demonstração Online
-O aplicativo está publicado e pronto para uso na nuvem:
-👉 [Acesse o Portfólio de Ações Dinâmico no Streamlit](https://rafacasella-portifolio-an-portifolioacoesportifolioacoes-ydwzap.streamlit.app/)
+## 🔗 Online Demo
+The application is deployed and ready for cloud use:
+👉 [Access the Dynamic Stock Portfolio Tracker on Streamlit](https://rafacasella-portifolio-an-portifolioacoesportifolioacoes-ydwzap.streamlit.app/)
 
-## 🛠️ Tecnologias Utilizadas
-* **Python** (Linguagem base)
-* **Streamlit** (Construção da interface web e painel interativo)
-* **Pandas** / **NumPy** (Manipulação, cálculo de retornos e normalização de dados)
-* **yfinance** (Integração e consumo de dados financeiros históricos da API do Yahoo Finance)
-* **Plotly** / **Matplotlib** (Visualizações gráficas dinâmicas de performance)
+## 🛠️ Tech Stack
+* **Python** (Core language)
+* **Streamlit** (Web interface construction and interactive dashboard)
+* **Pandas** / **NumPy** (Data manipulation, return calculation, and normalization)
+* **yfinance** (Integration and consumption of historical financial data via Yahoo Finance API)
+* **Plotly** / **Matplotlib** (Dynamic performance chart visualizations)
 
-## 📁 Estrutura de Arquivos
-* `PortifolioAcoes.py`: Script principal que renderiza a aplicação no Streamlit.
-* `tickers.csv`: Arquivo de apoio contendo a lista e códigos dos ativos monitorados.
-* `requirements.txt`: Dependências e bibliotecas necessárias para a execução do ecossistema.
+## 📁 File Structure
+* `PortifolioAcoes.py`: Main script that renders the Streamlit application.
+* `tickers.csv`: Support file containing the list and symbols of monitored assets.
+* `requirements.txt`: Dependencies and libraries required to run the ecosystem.
 
-## 🚀 Como Executar Localmente
+## 🚀 How to Run Locally
 
-1. Navegue até a pasta do projeto no seu terminal:
+1. Navigate to the project folder in your terminal:
    ```bash
    cd PortifolioAcoes
    ```
-2. Instale as bibliotecas necessárias:
+2. Install the required libraries:
    ```bash
    pip install -r requirements.txt
    ```
-3. Inicie o servidor local do Streamlit:
+3. Start the local Streamlit server:
    ```bash
    streamlit run PortifolioAcoes.py
    ```
 
 ---
-📌 *Este projeto faz parte do meu Portfólio de Análise de Dados.*
+📌 *This project is part of my Data Analysis Portfolio.*
