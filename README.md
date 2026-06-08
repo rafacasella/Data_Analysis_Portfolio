@@ -18,7 +18,7 @@ The goal of this repository is to demonstrate the practical application of data 
   * **Red Flag:** Each day of payment delay (`paymentdelays`) raises the risk of churn by **23.8%**.
 
 ### 2. 📈 Financial KPI Dashboard (KPIs_Analysis)
-* **Where to Find:** `/KPIs_Analysis` folder | Link: https://kpis4cfo.streamlit.app/
+* **Where to Find:** `/KPIs_Analysis` folder | Link: https://kpi4cfo.streamlit.app/
 * **Description:** An interactive web application focused on structuring corporate performance metrics (KPIs), engineered to support strategic decision-making through real-time monitoring of financial health and sales performance.
 * **Technologies:** 
   * **Python:** Core language utilized throughout the entire project.
