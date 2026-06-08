@@ -330,7 +330,7 @@ inject_css(TOKENS)
 # =========================
 @st.cache_data
 def carregar_dados() -> pd.DataFrame:
-    df = pd.read_csv("KPIs_nalysis/Financials.csv")
+    df = pd.read_csv("Financials.csv")
     df.columns = df.columns.str.strip()
 
     cols_numericas = [
