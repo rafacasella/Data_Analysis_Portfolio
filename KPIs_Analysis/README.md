@@ -1,71 +1,70 @@
-# 📊 KPIs Essenciais para um CFO
+# 📊 Core KPIs for a CFO
 
-Este repositório apresenta alguns dos principais **KPIs (Key Performance Indicators)** que devem compor um painel estratégico para o **CFO (Chief Financial Officer)**. Esses indicadores ajudam a liderança financeira a monitorar o desempenho da empresa, identificar riscos, acompanhar liquidez, sustentar decisões estratégicas e incorporar métricas de sustentabilidade ao contexto financeiro.
+This repository presents **KPIs (Key Performance Indicators)** that should form a strategic dashboard for a **CFO (Chief Financial Officer)**. These indicators assist financial leadership in monitoring company performance, identifying risks, tracking liquidity, supporting strategic decision-making, and incorporating sustainability metrics into the financial context.
 
-## 🎯 Objetivo do Painel do CFO
+## 🎯 CFO Dashboard Objective
 
-Os KPIs incluídos em um painel do CFO devem refletir as metas e as necessidades específicas da empresa. De forma geral, eles precisam apoiar a liderança em atividades como:
+The KPIs included in a CFO dashboard should reflect the specific goals and needs of the organization. Generally, they must support leadership in key activities such as:
 
-- Entender o desempenho financeiro do negócio
-- Identificar riscos relacionados a fluxo de caixa e liquidez
-- Apoiar decisões estratégicas
-- Monitorar eficiência operacional e financeira
-
----
-
-## 📈 KPIs de Receita e Lucro (Indicador de Lucratividade)
-
-Esses indicadores ajudam a medir crescimento, rentabilidade e retorno dos ativos da empresa.
-
-- **Margem de lucro bruto**
-  - Indica a porcentagem de receita que sobra após pagar o custo dos produtos vendidos
-- **Margem de Contribuição por Produto**
-  - Custo das Mercadorias Vendidas por unidade 
-- **Lucro Total**
+- Understanding the business's financial performance
+- Identifying risks related to cash flow and liquidity
+- Supporting strategic decision-making
+- Monitoring operational and financial efficiency
 
 ---
 
-## ⚙️ KPIs Eficiência Comercial
+## 📈 Revenue & Profit KPIs (Profitability Indicators)
 
-Indicadores que avaliam a saúde operacional das vendas.
+These metrics help evaluate the company's growth, profitability, and asset performance.
 
-- **Taxa de Desconto**
-  - Avalia o quanto a política de descontos está "comendo" a sua receita bruta 
-- **Custo de Mercadoria Vendida**
-  - Avalia o peso da produção ou compra dos produtos em relação ao faturamento 
-
----
-
-## 💰 KPIs de Eficiência Financeira (Vendas e Performance)
-
-Esses KPIs são fundamentais para entender não apenas o quanto a empresa vende, mas qual é a qualidade e a sustentabilidade desse crescimento.
-
-- **Ticket Médio**
-  - Ajuda a entender qual perfil de cliente 
-- **Volume de Vendas**
-  - Essencial para entender a escala da operação (TPV) 
-- **Receita Líquida**
+- **Gross Profit Margin**
+  - Indicates the percentage of revenue remaining after covering the cost of goods sold.
+- **Contribution Margin per Product**
+  - Cost of Goods Sold per unit.
+- **Total Profit**
 
 ---
 
-## 🧾 KPIs Visões de Crescimento e Mercado
+## ⚙️ Sales Efficiency KPIs
 
-Esses indicadores funcionam como uma bússola para entender onde a empresa está e para onde pode expandir.
+Indicators that evaluate the operational health of sales activities.
 
-- **Crescimento Mensal**
-- **Market Share por País**
-- **Mix de Produtos**
-  - Quais produtos representam a maior fatia na lucratividade da empresa 
+- **Discount Rate**
+  - Evaluates how much the discounting policy is eroding gross revenue.
+- **Cost of Goods Sold (COGS)**
+  - Evaluates the weight of manufacturing or purchasing products relative to total revenue.
 
 ---
 
+## 💰 Financial Efficiency KPIs (Sales & Performance)
 
-## 🧠 Por que esses KPIs são importantes?
+These KPIs are essential for understanding not just how much the company sells, but the quality and sustainability of that growth.
 
-Um painel do CFO bem estruturado permite:
+- **Average Ticket / Average Order Value (AOV)**
+  - Helps understand the customer profile and purchasing behavior.
+- **Sales Volume**
+  - Essential for understanding operational scale (Total Processed Volume - TPV).
+- **Net Revenue**
 
-- Melhorar a qualidade da tomada de decisão
-- Antecipar riscos financeiros e operacionais
-- Acompanhar a saúde financeira da organização em tempo real
-- Integrar desempenho econômico com responsabilidade ambiental
-- Gerar mais previsibilidade para o planejamento estratégico
+---
+
+## 🧾 Market & Growth Perspectives
+
+These indicators function as a compass to understand where the company stands and where it can expand.
+
+- **Month-over-Month (MoM) Growth**
+- **Market Share by Country**
+- **Product Mix**
+  - Identifies which products represent the largest share of the company's profitability.
+
+---
+
+## 🧠 Why Are These KPIs Important?
+
+A well-structured CFO dashboard enables organizations to:
+
+- Improve the quality of strategic decision-making.
+- Anticipate financial and operational risks.
+- Monitor the organization's financial health in real-time.
+- Integrate economic performance with environmental responsibility.
+- Generate higher predictability for strategic planning.
