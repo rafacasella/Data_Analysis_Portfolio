@@ -5,7 +5,7 @@ This project is an interactive web application designed for investors and financ
 
 ## 🔗 Online Demo
 The application is deployed and ready for cloud use:
-👉 [Access the Dynamic Stock Portfolio Tracker on Streamlit](https://rafacasella-portifolio-an-portifolioacoesportifolioacoes-ydwzap.streamlit.app/)
+👉 [Access the Dynamic Stock Portfolio Tracker on Streamlit](https://stockportfolioo.streamlit.app/)
 
 ## 🛠️ Tech Stack
 * **Python** (Core language)
