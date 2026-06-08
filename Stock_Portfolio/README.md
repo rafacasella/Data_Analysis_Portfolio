@@ -23,7 +23,7 @@ The application is deployed and ready for cloud use:
 
 1. Navigate to the project folder in your terminal:
    ```bash
-   cd PortifolioAcoes
+   cd Stock_Portfolio
    ```
 2. Install the required libraries:
    ```bash
@@ -31,7 +31,7 @@ The application is deployed and ready for cloud use:
    ```
 3. Start the local Streamlit server:
    ```bash
-   streamlit run PortifolioAcoes.py
+   streamlit run Stock_Portfolio.py
    ```
 
 ---
