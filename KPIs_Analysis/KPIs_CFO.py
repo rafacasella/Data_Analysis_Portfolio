@@ -164,9 +164,6 @@ base_mensal["Ticket Medio"] = np.where(base_mensal["Units Sold"] != 0, base_mens
 # =========================================
 # RENDERIZAÇÃO DA GRADE OPERACIONAL
 # =========================================
-# Substitua a linha antiga do st.markdown("### 📊 Executivo CFO Monitor") por esta:
-st.markdown('<h3 style="color: #0F172A !important; font-size: 1.3rem; margin-bottom: 15px;">📊 EXECUTIVO CFO MONITOR</h3>', unsafe_allow_html=True)
-
 
 receita_t = df_filtrado["Sales"].sum()
 lucro_t = df_filtrado["Profit"].sum()
