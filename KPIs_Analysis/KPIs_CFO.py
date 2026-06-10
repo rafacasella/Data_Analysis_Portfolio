@@ -60,6 +60,23 @@ st.markdown(f"""
         section[data-testid="stSidebar"] {{ background: #0f172a !important; border-right: 1px solid {TOKENS["border"]}; }}
         h1, h2, h3 {{ color: #ffffff !important; font-weight: 800; }}
         div[data-baseweb="select"] {{ background-color: rgba(255,255,255,0.05) !important; border-radius: 4px !important; }}
+        /* Altere o fundo das tags selecionadas para um cinza escuro corporativo com borda ciano */
+        span[data-baseweb="tag"] {
+            background: #1e293b !important;
+            color: #ffffff !important;
+            border: 1px solid rgba(0, 242, 254, 0.4) !important;
+            border-radius: 4px !important;
+        }
+         /* Muda a cor do ícone de 'X' para remover a tag */
+        span[data-baseweb="tag"] svg {
+            fill: #00f2fe !important;
+        }
+        
+        /* Customiza o texto interno dos títulos de filtro */
+        div[data-testid="stMarkdownContainer"] p {
+            color: #0F172A !important;
+            font-weight: 600;
+        }
     </style>
 """, unsafe_allow_html=True)
 
