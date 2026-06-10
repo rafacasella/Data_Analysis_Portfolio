@@ -141,14 +141,21 @@ def aplicar_layout_portfolio(fig, titulo: str, yaxis_title: str = ""):
 # Execution pipeline
 df = carregar_dados()
 
+## =========================================
+# FILTRAGEM ESTRATÉGICA NO TOPO CENTRAL (Substitua o bloco antigo por este)
 # =========================================
-# FILTRAGEM STRATEGICA DA SIDEBAR
-# =========================================
-st.sidebar.markdown("### 🎛️ Filtros do Portfólio")
-paises = st.sidebar.multiselect("Países Selecionados:", options=sorted(df["Country"].unique()), default=sorted(df["Country"].unique()))
-produtos = st.sidebar.multiselect("Produtos Selecionados:", options=sorted(df["Product"].unique()), default=sorted(df["Product"].unique()))
+# Cria duas colunas horizontais no topo do dashboard para os seletores ficarem visíveis
+col_filtro1, col_filtro2 = st.columns(2)
 
+with col_filtro1:
+    paises = st.multiselect("🌍 Filtrar por Países:", options=sorted(df["Country"].unique()), default=sorted(df["Country"].unique()))
+
+with col_filtro2:
+    produtos = st.multiselect("📦 Filtrar por Produtos:", options=sorted(df["Product"].unique()), default=sorted(df["Product"].unique()))
+
+# A lógica de filtragem abaixo continua exatamente igual
 df_filtrado = df[df["Country"].isin(paises) & df["Product"].isin(produtos)]
+
 if df_filtrado.empty:
     st.warning("Ajuste os filtros laterais para renderizar o painel.")
     st.stop()
