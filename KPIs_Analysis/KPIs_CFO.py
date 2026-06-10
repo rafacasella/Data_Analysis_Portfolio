@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import plotly.graph_objects as go
 import os
 
 # =========================================
@@ -111,17 +110,33 @@ def render_kpi_card(titulo: str, valor: str, delta: float, descricao: str) -> No
     """, unsafe_allow_html=True)
 
 def aplicar_layout_portfolio(fig, titulo: str, yaxis_title: str = ""):
+    # Força uma cor escura padrão para garantir leitura em fundos claros
+    cor_texto_estrita = "#0F172A"
+    cor_grade_estrita = "#E2E8F0"
+
     fig.update_layout(
-        template="plotly_dark",
-        title={"text": titulo, "font": {"size": 14, "color": "#ffffff"}},
-        paper_bgcolor="rgba(0,0,0,0)", # Transparência interna do gráfico
-        plot_bgcolor="rgba(0,0,0,0)",  # Transparência interna do gráfico
+        template="plotly_white", # Garante a paleta base para fundos claros
+        title={
+            "text": titulo,
+            "font": {"size": 14, "color": cor_texto_estrita, "weight": "bold"}
+        },
+        paper_bgcolor="rgba(0,0,0,0)", # Mantém a transparência do contêiner
+        plot_bgcolor="rgba(0,0,0,0)",  # Mantém a transparência do contêiner
         margin=dict(l=10, r=10, t=40, b=10),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+        legend=dict(
+            orientation="h",
+            yanchor="bottom",
+            y=1.02,
+            xanchor="right",
+            x=1,
+            font=dict(color=cor_texto_estrita)
+        )
     )
-    fig.update_xaxes(showgrid=False, linecolor="rgba(255,255,255,0.1)")
-    fig.update_yaxes(title=yaxis_title, gridcolor="#1e293b", zeroline=False)
+    # Força as cores dos eixos e legendas a ficarem visíveis no fundo claro
+    fig.update_xaxes(showgrid=False, linecolor=cor_grade_estrita, tickfont=dict(color=cor_texto_estrita))
+    fig.update_yaxes(title=yaxis_title, gridcolor=cor_grade_estrita, zeroline=False, tickfont=dict(color=cor_texto_estrita))
     return fig
+
 
 # Execution pipeline
 df = carregar_dados()
