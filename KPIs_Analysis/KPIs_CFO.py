@@ -49,7 +49,7 @@ st.markdown(f"""
             backdrop-filter: blur(5px);
             margin-bottom: 12px;
         }}
-        .kpi-title {{ font-size: 0.85rem; color: {TOKENS["muted"]}; font-weight: 600; letter-spacing: 0.5px; }}
+        .kpi-title {{ font-size: 0.85rem; color: #0F172A !important; font-weight: 700; letter-spacing: 0.5px; }}
         .kpi-value {{ font-size: 1.4rem; color: #0F172A !important; font-weight: 800; margin: 5px 0; font-family: monospace; }}
         .kpi-delta {{ display: inline-block; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; }}
         .delta-up {{ background: rgba(0, 230, 118, 0.15); color: {TOKENS["success"]}; }}
