@@ -35,7 +35,7 @@ def build_main(tickers, prices):
         vols = returns.std() *np.sqrt(252) #Calculando a volatilidade utilizando desvio padrão e o número de dias úteis
         rets = ((norm_prices.iloc[-1]/norm_prices.iloc[0]) -1) #retonos: pegando o último retorno, e exibindo em forma decimal
 
-        mygrid = grid(5,5,5,5,5,5, vertical_align='top') #criando um grid vazio alinhado ao topo
+        mygrid = grid(3,3, vertical_align='top') #criando um grid vazio alinhado ao topo
         for t in prices.columns: #alimentando o grid
             c = mygrid.container(border=True)
             c.subheader(t, divider='red')
